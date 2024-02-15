@@ -1,3 +1,32 @@
 body {
     font-family: "Merriweather", serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Banner style section */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../images/banner-image.png');
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner h3 {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 177px;
+}
+
+.banner h1 {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 72px;
+    padding-top: 16px;
+    padding-bottom: 177px;
+    text-align: center;
+
 }
