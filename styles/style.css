@@ -94,6 +94,7 @@ main {
     background-color: #ff00000d;
     border-radius: 13px;
     text-align: center;
+    padding-bottom: 80px;
 }
 
 .subscribe img {
@@ -112,4 +113,21 @@ main {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+}
+
+.subscribe input {
+    padding: 15px 20px;
+    border: none;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.subscribe button {
+    padding: 14px;
+    border: none;
+    width: 100px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-color: #FF0000;
+
 }
