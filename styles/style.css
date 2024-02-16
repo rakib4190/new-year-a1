@@ -4,6 +4,21 @@ body {
     margin: 0;
 }
 
+/* shared style start */
+main {
+    max-width: 1620px;
+    align-items: center;
+    margin: 0 100px;
+}
+
+.primary-text {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+}
+
 /* Banner style section */
 .banner {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../images/banner-image.png');
@@ -28,5 +43,7 @@ body {
     padding-top: 16px;
     padding-bottom: 177px;
     text-align: center;
+
+    /* portfolio style start */
 
 }
