@@ -57,15 +57,33 @@ main {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 48px;
-
 }
 
 .protfolio-description {
-    color: #07021199;
-    font-family: Inter;
+    color: #070211;
     font-size: 20px;
     font-weight: 400;
     margin-top: 0;
+}
 
+.portfolio-images {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
 
+.portfolio-images img {
+    width: 420px;
+    height: 450px;
+    border: 1px solid #FFFFFF;
+    border-radius: 13px;
+    margin: 10px;
+    transition: 400ms;
+
+}
+
+.portfolio-images img:hover {
+    transform: scale(1.03);
 }
