@@ -87,3 +87,29 @@ main {
 .portfolio-images img:hover {
     transform: scale(1.03);
 }
+
+/* subscribe section style  */
+.subscribe {
+    margin-top: 120px;
+    background-color: #ff00000d;
+    border-radius: 13px;
+    text-align: center;
+}
+
+.subscribe img {
+    padding-top: 80px;
+}
+
+.subscribe h1 {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.subscribe p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
