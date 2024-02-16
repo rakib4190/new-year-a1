@@ -17,10 +17,12 @@ main {
     font-size: 24px;
     font-weight: 500;
     text-align: left;
+    margin-bottom: 0;
 }
 
 /* Banner style section */
 .banner {
+
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../images/banner-image.png');
     background-position: center;
     height: 100vh;
@@ -34,16 +36,36 @@ main {
     font-weight: 400;
     text-align: center;
     padding-top: 177px;
+    margin-bottom: 0;
 }
 
 .banner h1 {
     color: #ffffff;
     font-weight: 900;
     font-size: 72px;
-    padding-top: 16px;
+    margin-top: 0;
     padding-bottom: 177px;
     text-align: center;
 
-    /* portfolio style start */
+
+
+}
+
+/* portfolio style start */
+.protfolio-title {
+    color: #070211;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+
+}
+
+.protfolio-description {
+    color: #07021199;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+
 
 }
