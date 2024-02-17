@@ -170,7 +170,57 @@ main {
     border-radius: 5px;
     border: none;
     margin-top: 48px;
+}
 
+/* upcoming section style */
+.upcoming {
+    margin-top: 200px;
+    display: flex;
+}
+
+.coming-soon h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 14px;
+    padding-bottom: 20px;
+
+}
+
+.coming-soon>p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.upcoming>img {
+    width: 320px;
+    height: 320px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.greeting h2 {
+    color: #FF0000;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.greeting p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.greeting img {
+    margin-top: 45px;
+    width: 140px;
+    height: 140px;
 }
 
 
