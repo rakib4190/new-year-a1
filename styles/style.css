@@ -354,7 +354,8 @@ footer {
 
 .footer-bottom {
     display: flex;
-    /* padding-bottom: 120px; */
+    justify-content: space-between;
+
 }
 
 .copyright {
@@ -365,5 +366,5 @@ footer {
 .unsubscribe a {
     text-decoration: none;
     color: #FFFFFF;
-    margin-left: 1100px;
+    margin-right: 120px;
 }
