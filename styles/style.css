@@ -1,7 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
 body {
     font-family: "Merriweather", serif;
-    padding: 0;
-    margin: 0;
+
 }
 
 /* shared style start */
@@ -17,7 +22,7 @@ main {
     font-size: 24px;
     font-weight: 500;
     text-align: left;
-    margin-bottom: 0;
+
 }
 
 /* Banner style section */
@@ -28,6 +33,9 @@ main {
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 20px;
+    border-radius: 15px;
+
 }
 
 .banner h3 {
@@ -36,14 +44,14 @@ main {
     font-weight: 400;
     text-align: center;
     padding-top: 177px;
-    margin-bottom: 0;
+    margin-bottom: 16px;
+
 }
 
 .banner h1 {
     color: #ffffff;
     font-weight: 900;
     font-size: 72px;
-    margin-top: 0;
     padding-bottom: 177px;
     text-align: center;
 
@@ -53,17 +61,16 @@ main {
 
 /* portfolio style start */
 .protfolio-title {
+    margin-top: 10px;
     color: #070211;
-    margin-top: 0;
-    margin-bottom: 0;
     font-size: 48px;
 }
 
 .portfolio-description {
     color: #07021199;
+    margin-top: 15px;
     font-size: 20px;
     font-weight: 400;
-    margin-top: 0;
 }
 
 .portfolio-images {
@@ -113,6 +120,7 @@ main {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 45px;
 }
 
 .subscribe input {
