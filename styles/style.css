@@ -100,6 +100,7 @@ main {
     justify-content: space-around;
     height: 80vh;
     margin-top: 140px;
+    border-radius: 16px;
 }
 
 .midnight-party .content {
