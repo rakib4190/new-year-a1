@@ -57,6 +57,7 @@ main {
     text-align: center;
 }
 
+
 /* categories section start */
 .category {
     text-align: center;
@@ -135,6 +136,42 @@ main {
     border: 2px dashed gray;
     opacity: 0.9;
 }
+
+/* schedule section start */
+.schedule {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+    margin-top: 120px;
+    padding: 80px 0px 110px 0px;
+}
+
+.schedule .place,
+.date,
+.time {
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+.schedule .special-text {
+    color: #FF0000;
+}
+
+.primary-button {
+    color: #FFFFFF;
+    background-color: #FF0000;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 48px;
+
+}
+
 
 /* portfolio style start */
 .protfolio-title {
