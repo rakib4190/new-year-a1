@@ -88,6 +88,53 @@ main {
     height: 450px;
 }
 
+/* midnight party section start */
+.midnight-party {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+    margin-top: 140px;
+}
+
+.midnight-party .content {
+    color: #FFFFFF;
+}
+
+.content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.content button {
+    color: #ef683e;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.midnight-party img {
+    border: 2px dashed gray;
+    opacity: 0.9;
+}
 
 /* portfolio style start */
 .protfolio-title {
