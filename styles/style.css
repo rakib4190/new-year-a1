@@ -134,7 +134,6 @@ main {
 }
 
 .midnight-party img {
-    border: 2px dashed gray;
     opacity: 0.9;
 }
 
@@ -225,10 +224,15 @@ main {
 
 
 /* portfolio style start */
+.portfolio {
+    margin-top: 120px;
+}
+
 .protfolio-title {
     margin-top: 10px;
     color: #070211;
     font-size: 48px;
+
 }
 
 .portfolio-description {
