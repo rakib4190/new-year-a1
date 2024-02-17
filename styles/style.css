@@ -232,11 +232,20 @@ footer {
     justify-content: space-around;
 }
 
+.footer-container p {
+    margin-top: 15px;
+}
+
 .address {
     color: #FFFFFF;
 }
+
 .contact {
     color: #FFFFFF;
+}
+
+.contact .fa-solid {
+    margin-right: 10px;
 }
 
 .social-link {
@@ -260,7 +269,8 @@ footer {
     margin-left: 120px;
 }
 
-.unsubscribe {
+.unsubscribe a {
+    text-decoration: none;
     color: #FFFFFF;
     margin-left: 1100px;
 }
